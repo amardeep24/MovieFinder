@@ -1,12 +1,12 @@
-#Title
+# Title
 This app queries the OMDB api to get movie details.
 
-##Stack
+## Stack
 1. UI is made using Angular 5.
 2. Server REST service is made using Spring Boot 2.0.1
 3. The app is run in a Docker container.
 
-##Build
+## Build
 1. Navigate to the src/main/client and do a ng build
 2. Copy the contents of the generated dist folder to src/main/resources/static
 3. Run a Maven build using mvn clean install
